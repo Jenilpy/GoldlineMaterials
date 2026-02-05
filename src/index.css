@@ -1,0 +1,28 @@
+:root {
+  font-family: 'Segoe UI', system-ui, -apple-system, BlinkMacSystemFont,
+    'Roboto', 'Helvetica Neue', Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  color: #222222;
+  background-color: #ffffff;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+}
+
+a {
+  font-weight: 500;
+  color: #8b0000;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
