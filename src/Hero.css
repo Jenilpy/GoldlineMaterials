@@ -60,6 +60,10 @@ header {
     transition: opacity 0.2s ease;
 }
 
+.logo--clickable {
+    cursor: pointer;
+}
+
 .logo:hover {
     opacity: 0.8;
 }
@@ -343,6 +347,11 @@ footer {
 .footer-content {
     max-width: 700px;
     margin: 0 auto;
+}
+
+.footer-logo {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
 }
 
 .copyright {
