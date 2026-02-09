@@ -375,31 +375,45 @@ footer {
 }
 
 @media (max-width: 768px) {
+    header {
+        padding: 0.5rem 0;
+    }
+
     .header-container {
         flex-direction: column;
         text-align: center;
     }
     
+    .logo {
+        font-size: 1.4rem;
+        letter-spacing: 0.08em;
+    }
+
     nav ul {
-        margin-top: 1.5rem;
+        margin-top: 1rem;
         flex-wrap: wrap;
         justify-content: center;
     }
     
     nav ul li {
-        margin: 0.5rem 1rem;
+        margin: 0.35rem 0.75rem;
+    }
+    
+    nav ul li a {
+        font-size: 0.9rem;
+        padding: 0.25rem 0;
     }
     
     .hero {
-        padding: 4rem 1.5rem;
+        padding: 3rem 1.5rem;
     }
     
     .hero h1 {
-        font-size: 2.5rem;
+        font-size: 2.4rem;
     }
     
     .hero p {
-        font-size: 1.2rem;
+        font-size: 1.05rem;
     }
     
     section {
@@ -407,7 +421,7 @@ footer {
     }
     
     .section-title h2 {
-        font-size: 2.2rem;
+        font-size: 1.6rem;
     }
     
     .products-grid {
@@ -417,27 +431,27 @@ footer {
 
 @media (max-width: 480px) {
     .logo {
-        font-size: 1.9rem;
+        font-size: 1.3rem;
     }
     
     nav ul li {
-        margin: 0.5rem 0.75rem;
+        margin: 0.25rem 0.5rem;
     }
     
     nav ul li a {
-        font-size: 0.95rem;
+        font-size: 0.85rem;
     }
     
     .hero h1 {
-        font-size: 2.2rem;
+        font-size: 2rem;
     }
     
     .hero p {
-        font-size: 1.1rem;
+        font-size: 1.05rem;
     }
     
     .section-title h2 {
-        font-size: 2rem;
+        font-size: 1.5rem;
     }
     
     .contact-container {

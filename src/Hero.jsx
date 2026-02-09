@@ -175,15 +175,6 @@ const ContactSection = () => (
         </div>
 
         <div className="contact-info">
-          <h3>Contact Details</h3>
-          <ul className="contact-details">
-            <li>Phone: +91 9054456000</li>
-            <li>Email: kohinoord109@gmail.com</li>
-            {/* <li>Business Registration: GUJ123456789</li> */}
-          </ul>
-        </div>
-
-        <div className="contact-info">
           <h3>Business Hours</h3>
           <ul className="business-hours">
             <li>
